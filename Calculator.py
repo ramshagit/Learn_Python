@@ -30,13 +30,14 @@ num2 = int(input("Enter Second number: "))
 if choice == "1":
     print(num1," + ",num2," = ", add(num1,num2))
 
-if choice == "2":
+elif choice == "2":
     print(num1," + ",num2," = ", sub(num1,num2))
 
-if choice == "3":
+elif choice == "3":
     print(num1," + ",num2," = ", mul(num1,num2))
 
-if choice == "4":
+elif choice == "4":
     print(num1," + ",num2," = ", div(num1,num2))
-
+else:
+    print("invalid choice")
 
